@@ -33,7 +33,12 @@ const users = [
         name: "Buddy",
         img: "https://i.pinimg.com/564x/91/9b/f4/919bf433435845a455a0e5c429f9d47a.jpg",
         homeworks: [60, 45, 55, 50, 50],
-    }
+    },
+    {
+        name: "Chucky",
+        img: "https://pics.me.me/thumb_image-in-dog-meme-collection-by-kate-on-we-heart-52940855.png",
+        homeworks: [60, 45, 81, 50, 50],
+    },
     
 ];
 
