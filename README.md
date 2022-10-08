@@ -1,2 +1,2 @@
-# Student rating list created with Create React App
+## Student rating list created with Create React App
 
