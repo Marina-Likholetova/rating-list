@@ -39,24 +39,6 @@ const users = [
         img: "https://pics.me.me/thumb_image-in-dog-meme-collection-by-kate-on-we-heart-52940855.png",
         homeworks: [60, 45, 81, 50, 50],
     },
-    
 ];
 
-const MAXSCORE= 500;
-
-const gradation = {
-    20: "satisfactory",
-    55: "good",
-    85: "very-good",
-    100: "excellent",
-};
-
-function matchScore(int) {
-    for (let i in gradation) {
-      if (int / MAXSCORE * 100 <= i) {
-            return `user-grade ${gradation[i]}`;
-        }
-    }
-}
-
-export { users, matchScore };
+export default users;
